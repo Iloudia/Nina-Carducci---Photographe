@@ -42,6 +42,16 @@ body {
 	width: 20px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-size: 30px 30px;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.7));
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;

@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Nina Carducci, Photographe professionnelle à Paris et capture vos moments les plus précieux. Réalise des photos pour les concerts, Entreprises, Mariages et portraits.">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" media="print" onload="this.media='all'">
+	<link rel="stylesheet" href="./assets/style.css" media="print" onload="this.media='all'">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	
 	<title>Nina Carducci - photographe à Paris</title>
 </head>
 <body>
@@ -24,13 +21,14 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img loading="lazy" src="assets/webp/instagram.webp" alt=""></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img loading="lazy" src="assets/images/instagram-min_9_11zon.webp" alt=""></a></li>
 		</ul>
 </nav>
 </header>
 
 <main>
 <section id="header">
+	<h2 class="visually-hidden">Présentation</h2>
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
@@ -40,13 +38,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/webp/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" width="500" height="700" class="d-block w-100" alt="Photographie d'un homme sur un passage piéton à Paris,">
+				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min_15_11zon.webp" width="500" height="700" class="d-block w-100" alt="Photographie d'un homme sur un passage piéton à Paris,">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/webp/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" width="500" height="700" class="d-block w-100" alt="Photographie d'un concert à Paris, nina Carducci">
+				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min_12_11zon.webp" width="500" height="700" class="d-block w-100" alt="Photographie d'un concert à Paris, nina Carducci">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/webp/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" width="500" height="700" class="d-block w-100" alt="Photographie de mariage à Paris,Nina Carducci">
+				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp" width="500" height="700" class="d-block w-100" alt="Photographie de mariage à Paris,Nina Carducci">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -63,7 +61,7 @@
 
 <section id="about">
 	<div class="picture left">
-		<img loading="lazy" src="./assets/webp/nina.webp">
+		<img loading="lazy" src="./assets/images/nina-min_13_11zon.webp" alt="Portrait de Nina Carducci, photographe à Paris">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -78,15 +76,15 @@
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" loading="lazy" src="./assets/webp/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Photo de concert par Nina Carducci"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/webp/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Portrait professionnel en entreprise par Nina Carducci"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/webp/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Photo d’équipe en entreprise par Nina Carducci"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" loading="lazy" src="./assets/webp/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Photographie de mariage par Nina Carducci"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" loading="lazy" src="./assets/webp/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Portrait d'homme par Nina Carducci"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" loading="lazy" src="./assets/webp/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Photographie de cérémonie de mariage par Nina Carducci"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" loading="lazy" src="./assets/webp/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Portrait de femme par Nina Carducci"/>
-			<img data-gallery-tag="Concert" class="gallery-item" loading="lazy" src="./assets/webp/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Photographie d'un chanteur sur scène par Nina Carducci"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/webp/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Photographie réunion professionnelle par Nina Carducci"/>
+			<img data-gallery-tag="Concert" class="gallery-item" loading="lazy" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-min_2_11zon.webp" alt="Photo de concert par Nina Carducci">
+			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-min_4_11zon.webp" alt="Portrait professionnel en entreprise par Nina Carducci">
+			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-min_10_11zon.webp" alt="Photo d’équipe en entreprise par Nina Carducci">
+			<img data-gallery-tag="Mariages" class="gallery-item" loading="lazy" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-min_8_11zon.webp" alt="Photographie de mariage par Nina Carducci">
+			<img data-gallery-tag="Portrait" class="gallery-item" loading="lazy" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-min_3_11zon.webp" alt="Portrait d'homme par Nina Carducci">
+			<img data-gallery-tag="Mariages" class="gallery-item" loading="lazy" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-min.webp" alt="Photographie de cérémonie de mariage par Nina Carducci">
+			<img data-gallery-tag="Portrait" class="gallery-item" loading="lazy" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-min_14_11zon.webp" alt="Portrait de femme par Nina Carducci">
+			<img data-gallery-tag="Concert" class="gallery-item" loading="lazy" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-min_5_11zon.webp" alt="Photographie d'un chanteur sur scène par Nina Carducci">
+			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-min_11_11zon.webp" alt="Photographie réunion professionnelle par Nina Carducci">
 		</div>
 	</div>
 		<figure class="quote">
@@ -152,7 +150,7 @@
 		<div class="form-container">
 			<h2>Contact</h2>
 			<p>Une question ? Une demande de devis ? <br> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-			<form action="" method="post">
+			<form action="#" method="post">
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom" required autocomplete="name">
 
@@ -162,14 +160,18 @@
 				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10" required></textarea>
 
-				<input type="submit" value="Envoyer"/>
+				<input type="submit" value="Envoyer">
 			</form>
 		</div>
 		<div class="picture right">
-			<img loading="lazy" src="./assets/webp/camera.webp" alt="Photographie professionnelle d'appareil photo">
+			<img loading="lazy" src="./assets/images/camera-min_6_11zon.webp" alt="Photographie professionnelle d'appareil photo">
 		</div>
 	</div>
 </section>
 </main>
+<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous" defer></script>
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
 </body>
 </html>
